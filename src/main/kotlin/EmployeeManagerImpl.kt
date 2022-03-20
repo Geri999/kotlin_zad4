@@ -2,7 +2,6 @@ class EmployeeManagerImpl : EmployeeManager {
 
     var employeeList = mutableListOf<Employee>()
 
-
     override fun addEmployee(employee: Employee) {
         employeeList.add(employee)
     }

@@ -1,5 +1,4 @@
 fun main() {
-
     val employeeManager =  EmployeeManagerImpl()
 
     employeeManager.addEmployee(Employee(1, "Kraków", 100))
